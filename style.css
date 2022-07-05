@@ -3,15 +3,62 @@
     
 }
 body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
 
 }
 .banner1{
     display: flex;
+    margin-bottom: 100px;
 }
-img{
-    width: 70%;
+.banner1 .first-ban h1{
+    font-size: 42px;
+
+}
+.head-text{
+    color: orange;
+}
+
+.first-ban img{
+    width: 100%;
 }
 .first-ban{
-   padding-left: 20px;
-   padding-right: 200px;
+   padding-left: 50px;
+   width: 50%;
+   
+   
+}
+.first-ban .first-para{
+    font-weight: bold;
+    padding-top: 50px;
+}
+.first-ban p{
+    padding-top: 20px;
+}
+.first-ban a{
+    background-image: linear-gradient(orange,tomato );
+    padding: 10px 30px;
+   text-decoration: none;
+   color: white;
+   font-weight: bold;
+   margin-top: 50px;
+   border-radius: 5px;
+}
+.banner1{
+    background-image: url(image/top-banner.png);
+    background-repeat: no-repeat;
+}
+.banner2{
+    display: flex;
+    margin-bottom: 100px;
+}
+.banner2 .first-ban h1{
+    font-size: 42px;
+
+}
+.banner2{
+    background-image: url(image/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-top: 100px;
 }
