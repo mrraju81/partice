@@ -1,0 +1,17 @@
+*{
+    text-transform: capitalize;
+    
+}
+body{
+
+}
+.banner1{
+    display: flex;
+}
+img{
+    width: 70%;
+}
+.first-ban{
+   padding-left: 20px;
+   padding-right: 200px;
+}
